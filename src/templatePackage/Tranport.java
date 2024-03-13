@@ -1,7 +1,7 @@
 package templatePackage;
 
 public interface Tranport {
-    static int type = 0;
+    int type = 0;
     String GetGosNomer();
     void SetGosNomer(String value);
     //метод смены владельца транспорта
